@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 120px;
+    width: 100%;
+    background: #212121;    
+    text-align: center;
+    color:white;     
+    padding-top: 1rem;
+    transition: 1s all;
+}
+.header h1{
+    margin: 0.6rem;
+    text-transform: uppercase;
+}
+.menu {
+    height: 40px;
+    width: 100%;
+    background: white;
+    padding: 0rem 0rem 0 21rem;
+}
+.menu button{
+    background: transparent;
+    border: 0;
+    height: 40px;
+    line-height: 2rem;    
+    padding: 0 1rem 0 1rem;    
+    color:black;
+    font-family: "Montessart", "Avenir";
+    transition: 0.4s all;    
+}
+.menu button:hover{
+    background: #212121;
+    color:white;
+}
+.menu span{
+    padding: 0 11rem 0 11rem;    
+}
+.content {
+    min-height: 600px;
+    height: auto;
+    width: 100%;
+    background: #232323;    
+}
+.content .container{
+    width: 60%;
+    padding: 1rem 4rem 0 20rem;
+}
+.box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+    height: 150px;
+    width: 22%;
+    float: left;
+    margin: 1rem;
+    transition: 0.6s all;
+/*    display: none;*/
+    opacity: 1;
+}
+.menuBtnActive {
+    background-color: #212121 ! important; 
+    color:white ! important;
+}
